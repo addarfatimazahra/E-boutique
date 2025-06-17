@@ -1,8 +1,7 @@
 @import "tailwindcss";
 * {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+   
 }
 
 nav {
@@ -64,33 +63,10 @@ ul li {
     margin:20px;
 }
 /*background*/
-.about{
-    background-image: url('img/back\ ground.jpeg');
-    background-size: cover;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content:center;
-   
 
-}
-.btn1{
-    background-color: rgb(56, 127, 188);
-    padding: 10px 15px;
-    border-radius: 10px;
-    margin-top: 70px;
-    color: white;
-    border: none;
-
-   
-
-}
     /*colle*/
 
-.coll{
-    margin: 40px;
-        
-}
+
 @media (max-width: 768px) {
     ul {
         display: none; 
@@ -123,7 +99,7 @@ ul li {
         height: 300px;
     }
     button{
-        padding: 10px;
+        padding: 5px;
        
     }
 }
